@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "woia-marketing-channel-execution",
+  "version": "0.5.0",
+  "description": "WOIA Marketing provider for controlled publication, campaign activation, distribution, communication, and other authorized channel effects with dry-run planning and effect evidence.",
+  "author": {
+    "name": "Turpial AI Academy",
+    "url": "https://github.com/Turpial-AI-Academy"
+  },
+  "homepage": "https://github.com/Turpial-AI-Academy/woia-marketing-channel-execution-agent-plugin",
+  "repository": "https://github.com/Turpial-AI-Academy/woia-marketing-channel-execution-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "agent-plugin",
+    "woia",
+    "marketing",
+    "marketing-channel-execution"
+  ]
+}

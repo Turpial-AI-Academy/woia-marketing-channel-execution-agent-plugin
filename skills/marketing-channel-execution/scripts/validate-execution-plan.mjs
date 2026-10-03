@@ -1,0 +1,15 @@
+import { readFile } from "node:fs/promises";
+const idx=process.argv.indexOf("--file"); if(idx<0||!process.argv[idx+1]) throw new Error("--file is required");
+const p=JSON.parse(await readFile(process.argv[idx+1],"utf8"));
+const effects=new Set(["external-write","communication","publication","financial"]);
+const errors=[];
+if(typeof p.target_ref!=="string"||!p.target_ref) errors.push("target_ref is required");
+if(typeof p.operation!=="string"||!p.operation) errors.push("operation is required");
+if(!Array.isArray(p.effect_classes)||p.effect_classes.length===0) errors.push("effect_classes must be non-empty");
+else for(const e of p.effect_classes) if(!effects.has(e)) errors.push("unsupported effect_class: "+e);
+if(!p.authority||!["authorized","pending","denied"].includes(p.authority.status)) errors.push("authority.status must be authorized|pending|denied");
+if(typeof p.authority?.approval_required!=="boolean") errors.push("authority.approval_required must be boolean");
+if(p.authority?.approval_required&&p.authority.status==="authorized"&&typeof p.authority.approval_ref!=="string") errors.push("approval_ref required for authorized approval-required plan");
+if(!p.recovery||typeof p.recovery.strategy!=="string"||!p.recovery.strategy) errors.push("recovery.strategy is required");
+console.log(JSON.stringify({result:errors.length?"FAIL":"PASS",errors},null,2));
+process.exitCode=errors.length?2:0;

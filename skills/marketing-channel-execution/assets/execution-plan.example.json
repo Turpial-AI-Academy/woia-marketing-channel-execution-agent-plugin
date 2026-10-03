@@ -1,0 +1,17 @@
+{
+  "target_ref": "channel:example",
+  "operation": "publish",
+  "effect_classes": [
+    "publication",
+    "communication"
+  ],
+  "authority": {
+    "status": "authorized",
+    "approval_required": true,
+    "approval_ref": "approval:example"
+  },
+  "recovery": {
+    "strategy": "unpublish-or-reconcile",
+    "reconciliation_capability": "channel.read-status"
+  }
+}
