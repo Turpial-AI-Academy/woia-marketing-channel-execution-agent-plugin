@@ -4,7 +4,7 @@ description: Plan, execute, verify, and reconcile authorized Marketing channel e
 license: MIT
 metadata:
   author: Turpial AI Academy
-  version: "0.5.0"
+  version: "0.5.1"
 ---
 
 # Marketing Channel Execution
@@ -40,3 +40,7 @@ The plan must explicitly bind target, operation, effect classes, authority statu
 Return confirmed/partial/rejected/unknown effect evidence, exact target/configuration, resulting identifiers, and rollback/reconciliation state.
 
 Tool availability never grants business authority.
+
+## Real Estate effective execution
+
+In Real Estate, only public/non-person/non-paid Marketing publication is eligible. Structural validation never authorizes execution. Every Real Estate adapter must invoke the guarded dispatch helper in scripts/authorize-real-estate-publication.mjs using host-resolved authority, source acceptance and durable reservation context. Read [the routing contract](references/real-estate-routing.md) before executing. Person-directed effects route to Customer Service/Communications; paid effects route to Ads. Preserve UNKNOWN and reconcile before retry.
