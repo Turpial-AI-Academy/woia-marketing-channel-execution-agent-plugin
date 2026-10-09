@@ -1,6 +1,6 @@
 # woia-marketing-channel-execution
 
-WOIA Marketing v0.5.6 provider for `marketing.channel-execution`.
+WOIA Marketing v0.5.7 provider for `marketing.channel-execution`.
 
 - Primary skill: `$marketing-channel-execution`
 - Authoring profile: thin

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "woia-marketing-channel-execution",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "WOIA Marketing provider for controlled publication, campaign activation, distribution, communication, and other authorized channel effects with dry-run planning and effect evidence.",
   "author": {
     "name": "Turpial AI Academy",
