@@ -1,10 +1,6 @@
 {
   "name": "woia-marketing-channel-execution-agent-plugin-repo",
   "private": true,
-  "version": "0.5.1",
-  "type": "module",
-  "scripts": {
-    "test": "node --test tests/*.test.mjs",
-    "ci:fast": "node --test tests/*.test.mjs"
-  }
+  "version": "0.5.6",
+  "type": "module"
 }

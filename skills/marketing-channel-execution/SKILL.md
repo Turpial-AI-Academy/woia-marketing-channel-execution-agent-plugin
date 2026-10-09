@@ -4,7 +4,7 @@ description: Plan, execute, verify, and reconcile authorized Marketing channel e
 license: MIT
 metadata:
   author: Turpial AI Academy
-  version: "0.5.1"
+  version: "0.5.6"
 ---
 
 # Marketing Channel Execution
