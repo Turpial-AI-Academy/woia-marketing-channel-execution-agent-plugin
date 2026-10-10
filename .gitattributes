@@ -4,3 +4,4 @@
 /package.json export-ignore
 /.gitattributes export-ignore
 /.gitignore export-ignore
+/tests export-ignore

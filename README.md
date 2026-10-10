@@ -1,6 +1,6 @@
 # woia-marketing-channel-execution
 
-WOIA Marketing v0.5.7 provider for `marketing.channel-execution`.
+WOIA Marketing v0.5.8 provider for `marketing.channel-execution`.
 
 - Primary skill: `$marketing-channel-execution`
 - Authoring profile: thin
@@ -8,7 +8,7 @@ WOIA Marketing v0.5.7 provider for `marketing.channel-execution`.
 
 Capability-owned deterministic tools/templates live in this plugin. Generic certification/release tooling lives in `woia-ecosystem`.
 
-The generic structural validator is backward compatible. The Real Estate effective action set permits only Marketing public, non-person, non-paid publication through the guarded dispatcher. External-person communication belongs to Customer Service/Communications; paid effects belong to Ads. See [the routing contract](skills/marketing-channel-execution/references/real-estate-routing.md).
+The structural validator checks plans; public, non-person, non-paid publication uses the guarded dispatcher with current authority, source evidence and durable CAS reservation. External-person communication belongs to Communications under Customer Service coordination; paid effects belong to Ads. See [the routing contract](skills/marketing-channel-execution/references/publication-routing.md).
 
 ## Maintenance
 
